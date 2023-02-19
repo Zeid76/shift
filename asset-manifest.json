@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3680c55.css",
-    "main.js": "/static/js/main.3835317e.js",
-    "static/js/787.70f169b2.chunk.js": "/static/js/787.70f169b2.chunk.js",
-    "static/media/LoginLogo.svg": "/static/media/LoginLogo.644e878172b1dfe6376687943827b749.svg",
-    "index.html": "/index.html",
-    "main.c3680c55.css.map": "/static/css/main.c3680c55.css.map",
-    "main.3835317e.js.map": "/static/js/main.3835317e.js.map",
-    "787.70f169b2.chunk.js.map": "/static/js/787.70f169b2.chunk.js.map"
+    "main.css": "/shift/static/css/main.336b7484.css",
+    "main.js": "/shift/static/js/main.324106f6.js",
+    "static/js/787.70f169b2.chunk.js": "/shift/static/js/787.70f169b2.chunk.js",
+    "static/media/LoginLogo.svg": "/shift/static/media/LoginLogo.644e878172b1dfe6376687943827b749.svg",
+    "index.html": "/shift/index.html",
+    "main.336b7484.css.map": "/shift/static/css/main.336b7484.css.map",
+    "main.324106f6.js.map": "/shift/static/js/main.324106f6.js.map",
+    "787.70f169b2.chunk.js.map": "/shift/static/js/787.70f169b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3680c55.css",
-    "static/js/main.3835317e.js"
+    "static/css/main.336b7484.css",
+    "static/js/main.324106f6.js"
   ]
 }
