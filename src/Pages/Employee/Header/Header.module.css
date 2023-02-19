@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  padding-block: 2rem;
+}
+
+.header {
+  color: white;
+  margin-left: 5rem;
+  font-size: 2rem;
+}
+
+.logoutButton {
+  background-color: white;
+  margin-right: 6rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.logoutButton:hover {
+  cursor: pointer;
+}

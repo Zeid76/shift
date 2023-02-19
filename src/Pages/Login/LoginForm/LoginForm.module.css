@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 13rem;
+}
+
+.header {
+  font-size: 2rem;
+}
+
+.username,
+.password {
+  margin-top: 1rem;
+}
+
+.username p,
+.password p {
+  font-size: 0.8rem;
+}
+
+.username input,
+.password input {
+  border-style: none;
+  border-bottom: 0.1rem solid var(--primary);
+  width: 15rem;
+  padding: 0.3rem;
+}
+
+.username input:focus,
+.password input:focus {
+  outline: none;
+}
+
+.loginButton {
+  margin-top: 2rem;
+  background-color: var(--primary);
+  width: 15rem;
+  text-align: center;
+  padding: 1rem 0rem;
+  color: white;
+  border-radius: 1rem;
+}
+
+.loginButton:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  margin-top: 5rem;
+  padding-inline: 2rem;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: var(--primary);
+  padding: 1rem;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

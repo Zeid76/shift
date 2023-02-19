@@ -1,0 +1,35 @@
+.container {
+  background-color: var(--primary);
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.items :nth-child(2n + 1) {
+  background-color: #23a376;
+}
+
+.header {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabelHead {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5rem;
+}
+
+.tabelBody {
+  margin-top: 1rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
