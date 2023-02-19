@@ -33,3 +33,56 @@
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
+
+.tableContainer {
+  position: relative;
+  overflow-x: auto;
+  border-radius: 0.5rem;
+  overflow-y: auto;
+  height: 25rem;
+  width: 45rem;
+  padding-right: 1rem;
+}
+
+.tableHH {
+  width: 100%;
+  font-size: small;
+  text-align: left;
+}
+
+.thead1 {
+  font-size: small;
+  text-transform: uppercase;
+}
+
+.thead2 {
+  padding-left: 1.5rem /* 24px */;
+  padding-right: 1.5rem /* 24px */;
+  padding-top: 0.75rem /* 12px */;
+  padding-bottom: 0.75rem /* 12px */;
+  text-align: center;
+}
+
+.tRow1 {
+  border-bottom-width: 1px;
+}
+
+.tRow2 {
+  padding-left: 1.5rem /* 24px */;
+  padding-right: 1.5rem /* 24px */;
+  padding-top: 1rem /* 16px */;
+  padding-bottom: 1rem /* 16px */;
+  font-weight: 500;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.tRow3 {
+  padding-left: 1.5rem /* 24px */;
+  padding-right: 1.5rem /* 24px */;
+  padding-top: 1rem /* 16px */;
+  text-align: center;
+  padding-bottom: 1rem /* 16px */;
+
+}
+

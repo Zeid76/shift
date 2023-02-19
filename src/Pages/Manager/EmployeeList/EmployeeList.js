@@ -11,10 +11,10 @@ export const EmployeeList = ({ employees, setEmployees }) => {
 
 const Table = ({ employees, setEmployees }) => {
   return (
-    <div className="relative overflow-x-auto sm:rounded-lg overflow-y-auto h-[25rem] w-[45rem] pr-5">
-      <table className="w-full text-sm text-left">
+    <div className={classes.tableContainer}>
+      <table className={classes.tableHH}>
         <TableHead />
-        <tbody className="">
+        <tbody>
           {employees.map((item) => (
             <Row
               name={item.name}
@@ -33,21 +33,13 @@ const Table = ({ employees, setEmployees }) => {
 
 const TableHead = () => {
   return (
-    <thead className="text-xs uppercase">
+    <thead className={classes.thead1}>
       <tr>
-        <th scope="col" className="px-6 py-3  text-center">
-          Name
-        </th>
-        <th scope="col" className="px-6 py-3  text-center">
-          Id
-        </th>
-        <th scope="col" className="px-6 py-3  text-center">
-          PhoneNumber
-        </th>
+        <th className={classes.thead2}>Name</th>
+        <th className={classes.thead2}>Id</th>
+        <th className={classes.thead2}>PhoneNumber</th>
 
-        <th scope="col" className="px-6 py-3  text-center">
-          Remove
-        </th>
+        <th className={classes.thead2}>Remove</th>
       </tr>
     </thead>
   );
@@ -63,13 +55,11 @@ const Row = ({ name, id, phoneNumber, setEmployees, employees }) => {
   };
 
   return (
-    <tr className="border-b">
-      <th className="px-6 py-4 font-medium whitespace-nowrap text-center">
-        {name}
-      </th>
-      <td className="px-6 py-4 text-center">{id}</td>
-      <td className="px-6 py-4 text-center">{phoneNumber}</td>
-      <td className="px-6 py-4 text-center" onClick={() => handleRemove()}>
+    <tr className={classes.tRow1}>
+      <th className={classes.tRow2}>{name}</th>
+      <td className={classes.tRow3}>{id}</td>
+      <td className={classes.tRow3}>{phoneNumber}</td>
+      <td className={classes.tRow3} onClick={() => handleRemove()}>
         X
       </td>
     </tr>

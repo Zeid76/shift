@@ -324,7 +324,7 @@ const WeekCard = ({ day, shift, setShifts, shifts }) => {
     <div className={classes.card}>
       <span>{day}</span>
 
-      <p className="flex items-center justify-between">
+      <p className={classes.pp1}>
         6am-5pm:{" "}
         <span
           x={0}
@@ -337,13 +337,13 @@ const WeekCard = ({ day, shift, setShifts, shifts }) => {
           onDragStart={(event) => {
             drag(event, shift.shifts.morning.employee);
           }}
-          className="bg-green-100 px-2 py-2 rounded-md hover:cursor-pointer ml-4"
+          className={classes.ss1}
         >
           {shift.shifts.morning.taken ? "taken" : "not taken"},
           {shift.shifts.morning.employee.name}
         </span>
         <span
-          className="ml-[1rem] hover:cursor-pointer"
+          className={classes.ss2}
           onClick={() => {
             handleDelete(day, 0);
           }}
@@ -351,7 +351,7 @@ const WeekCard = ({ day, shift, setShifts, shifts }) => {
           X
         </span>
       </p>
-      <p className="flex items-center justify-between">
+      <p className={classes.pp1}>
         5pm-12am:{" "}
         <span
           x={1}
@@ -364,13 +364,13 @@ const WeekCard = ({ day, shift, setShifts, shifts }) => {
           onDragStart={(event) => {
             drag(event, shift.shifts.midday.employee);
           }}
-          className="bg-green-100 px-2 py-2 rounded-md hover:cursor-pointer ml-4"
+          className={classes.ss1}
         >
           {shift.shifts.midday.taken ? "taken" : "not taken"},
           {shift.shifts.midday.employee.name}
         </span>
         <span
-          className="ml-[1rem] hover:cursor-pointer"
+          className={classes.ss2}
           onClick={() => {
             handleDelete(day, 1);
           }}
@@ -378,7 +378,7 @@ const WeekCard = ({ day, shift, setShifts, shifts }) => {
           X
         </span>
       </p>
-      <p className="flex items-center justify-between">
+      <p className={classes.pp1}>
         12am-6am:{" "}
         <span
           x={2}
@@ -391,13 +391,13 @@ const WeekCard = ({ day, shift, setShifts, shifts }) => {
           onDragStart={(event) => {
             drag(event, shift.shifts.night.employee);
           }}
-          className="bg-green-100 px-2 py-2 rounded-md hover:cursor-pointer ml-4"
+          className={classes.ss1}
         >
           {shift.shifts.night.taken ? "taken" : "not taken"},
           {shift.shifts.night.employee.name}
         </span>
         <span
-          className="ml-[1rem] hover:cursor-pointer"
+          className={classes.ss2}
           onClick={() => {
             handleDelete(day, 2);
           }}
